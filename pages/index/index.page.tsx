@@ -1,5 +1,5 @@
-import preactLogo from '../assets/preact.svg';
-import './style.css';
+import preactLogo from "../assets/preact.svg"
+import "./style.css"
 
 export function Page() {
 	return (
@@ -26,14 +26,14 @@ export function Page() {
 				/>
 			</section>
 		</div>
-	);
+	)
 }
 
 function Resource(props) {
 	return (
-		<a href={props.href} target="_blank" class="resource">
+		<p class="resource">
 			<h2>{props.title}</h2>
 			<p>{props.description}</p>
-		</a>
-	);
+		</p>
+	)
 }
